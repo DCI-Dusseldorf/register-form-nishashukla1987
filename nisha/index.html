@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <article class="article">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/72/Dining_table_laid_at_Chatsworth_House.jpg"
+            alt="resturant image"
+            id="image"
+          />
+        </article>
+        <aside class="aside">
+          <form id="booking-form">
+            <h3>Booking Place for your Dinner!</h3>
+            <br />
+
+            <label class="reg">Your Name:</label> <input type="text" />
+            <br /><br />
+            <label class="reg">Phone Number:</label>
+            <input type="text" />
+            <br /><br />
+
+            <label class="reg">Select your Dining space:</label><br />
+            <input class="radio" type="radio" name="person" value="2" />2
+            persons<br />
+
+            <input type="radio" name="person" value="4" />4 persons<br />
+            <input type="radio" name="person" value="10" /> 10 persons <br />
+            <br />
+
+            <label class="reg">Time:</label>
+            <select name="Time">
+              <option value="time">select</option>
+              <option value="time">5 PM</option>
+              <option value="time">6 PM</option>
+              <option value="time">7 PM</option>
+              <option value="time">8 PM</option></select
+            ><br /><br />
+
+            <label class="reg">Food:</label>
+            <select name="Food">
+              <option value="food">select</option>
+              <option value="food">Chinese</option>
+              <option value="food">Italian</option>
+              <option value="food">Indian</option>
+            </select>
+            <br />
+            <br />
+
+            <button class="button" type="submit">
+              BOOK NOW!
+            </button>
+          </form>
+        </aside>
+      </div>
+    </section>
+  </body>
+</html>
